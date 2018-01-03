@@ -1,6 +1,6 @@
 module ApplicationHelper
   def page_title(tit = "")
-    base = "Rails sample application"
+    base = t "base"
 
     if tit.empty?
       base

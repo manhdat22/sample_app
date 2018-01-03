@@ -30,4 +30,37 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  base: "Hello world"
+  layouts:
+    header:
+      title: "Sample Application"
+      home: "Home"
+      help: "Help"
+      sign_up: "Sign Up"
+    footer:
+      home: "Home"
+      contact: "Contact"
+      news: "News"
+      copyright: "The %{copy}"
+      copy: "Ruby on Rails Tutorial"
+      copyright_by: "by %{copyright_by}"
+      copy_by: "Michael Hartl"
+  static_pages:
+    help:
+      page_title: "Help"
+      help_des: "Get help on the Ruby on Rails Tutorial at the %{help_page}. To get help on this sample app, see the %{rail_tut} book."
+      help_page: "Rails Tutorial help page"
+      rail_tut: "Ruby on Rails Tutorial"
+    home:
+      page_title: "Home"
+      desc: This is the homepage for the %{home_link} sample application.
+      home_link: "Ruby on Rails Tutorial"
+      sign_up: "Sign up"
+    contact:
+      page_title: "Contact"
+      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_link: "contact page"
+  users:
+    new:
+      page_title: "Sign Up"
+      content: "This will be a signup page for new users."
