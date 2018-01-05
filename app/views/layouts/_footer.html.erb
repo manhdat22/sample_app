@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= raw t(".copyright",
+    copy: link_to(t(".copy"), "http://www.railstutorial.org/help")) %>,
+    <%= raw t(".copyright_by",
+    copyright_by: link_to(t(".copy_by"), "http://www.railstutorial.org/help")) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".home"), root_path%></li>
+      <li><%= link_to t(".contact"), help_path %></li>
+      <li><%= link_to t(".news"), "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
