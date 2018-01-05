@@ -1,0 +1,9 @@
+user:
+# users name
+  name_maximum: 50
+  name_minimum: 8
+# users email
+  email_maximum: 150
+  email_minimum: 8
+# user password
+  password_minimum: 6
