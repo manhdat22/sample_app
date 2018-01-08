@@ -7,3 +7,5 @@ user:
   email_minimum: 8
 # user password
   password_minimum: 6
+# gravatar
+  gravatar_default_size: 50

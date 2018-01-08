@@ -31,6 +31,12 @@
 
 en:
   base: "Hello world"
+  flash_success: "Welcome to the my Sample App!"
+  flash_user_not_found: "User not found"
+  shared:
+    error_messages:
+      errors_count: "The form contains"
+      error: "error"
   layouts:
     header:
       title: "Sample Application"
@@ -64,3 +70,5 @@ en:
     new:
       page_title: "Sign Up"
       content: "This will be a signup page for new users."
+      password_comfirmation: "Password confirmation"
+      submit: "Create my account"
