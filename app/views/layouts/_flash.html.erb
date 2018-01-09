@@ -4,6 +4,8 @@
     message_alert_type = "success";
   when "user_not_found"
     message_alert_type = "danger";
+  when "invalid_login"
+    message_alert_type = "danger";
   end %>
   <div class="alert alert-<%= message_alert_type %>"><%= message %></div>
 <% end %>

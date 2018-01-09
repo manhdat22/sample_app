@@ -33,6 +33,7 @@ en:
   base: "Hello world"
   flash_success: "Welcome to the my Sample App!"
   flash_user_not_found: "User not found"
+  flash_invalid_login: "Invalid email/password combination"
   shared:
     error_messages:
       errors_count: "The form contains"
@@ -43,6 +44,10 @@ en:
       home: "Home"
       help: "Help"
       sign_up: "Sign Up"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
     footer:
       home: "Home"
       contact: "Contact"
@@ -72,3 +77,16 @@ en:
       content: "This will be a signup page for new users."
       password_comfirmation: "Password confirmation"
       submit: "Create my account"
+  sessions:
+    new:
+      page_title: "Login"
+      login_btn: "Login"
+      sign_up_now: "Sign up now !"
+      new_user: "New user ?"
+      invalid_login: "Invalid email/password combination"
+    create:
+      page_title: "Login"
+      login_btn: "Login"
+      sign_up_now: "Sign up now !"
+      new_user: "New user ?"
+
