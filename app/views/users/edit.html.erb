@@ -20,5 +20,10 @@
 
       <%= f.submit t(".submit"), class: "btn btn-primary"  %>
     <% end %>
+
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <%= link_to t(".change_gravatar"), "http://gravatar.com/emails", target: "_blank" %>
+    </div>
   </div>
 </div>

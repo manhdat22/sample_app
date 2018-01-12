@@ -31,9 +31,22 @@
 
 en:
   base: "Hello world"
+  views:
+    pagination:
+      first: "« First"
+      last: "Last »"
+      previous: "‹ Prev"
+      next: "Next ›"
+      truncate: "…"
+# flash
   flash_success: "Welcome to the my Sample App!"
   flash_user_not_found: "User not found"
   flash_invalid_login: "Invalid email/password combination"
+  flash_update_success: "Profile updated"
+  flash_not_logged_in: "Please log in"
+  flash_success_deleted: "Deleted"
+  flash_can_not_delete_user: "Can not delete"
+
   shared:
     error_messages:
       errors_count: "The form contains"
@@ -48,6 +61,7 @@ en:
       account: "Account"
       profile: "Profile"
       setting: "Settings"
+      users: "Users"
     footer:
       home: "Home"
       contact: "Contact"
@@ -77,8 +91,18 @@ en:
       content: "This will be a signup page for new users."
       password_comfirmation: "Password confirmation"
       submit: "Create my account"
+    edit:
+      page_title: "Update"
+      password_comfirmation: "Password confirmation"
+      submit: "Update my account"
+      change_gravatar: Change
+    index:
+      page_title: "All users"
+      delete: "Delete"
+
   sessions:
     new:
+      remember: "Remember me on this computer"
       page_title: "Login"
       login_btn: "Login"
       sign_up_now: "Sign up now !"

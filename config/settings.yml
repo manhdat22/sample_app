@@ -9,3 +9,5 @@ user:
   password_minimum: 6
 # gravatar
   gravatar_default_size: 50
+kaminari:
+  default_per_page: 10
