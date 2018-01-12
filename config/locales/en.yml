@@ -46,7 +46,11 @@ en:
   flash_not_logged_in: "Please log in"
   flash_success_deleted: "Deleted"
   flash_can_not_delete_user: "Can not delete"
-
+  flash_info_activate_mail_sended: "Please check your email to activate your account."
+  flash_account_activated: "Account activated!"
+  flash_invalid_activation_link: "Invalid activation link"
+  flash_account_not_activated: "Account is not activated!"
+# views
   shared:
     error_messages:
       errors_count: "The form contains"
@@ -114,3 +118,13 @@ en:
       sign_up_now: "Sign up now !"
       new_user: "New user ?"
 
+  user_mailer:
+    account_activation:
+      activation_message: |
+        Hi %{username}
+        Welcome to the Sample App! Click on the link below to activate your account:
+        %{link}
+      activate_link: Activate
+      desc: "Welcome to the Sample App! Click on the link below to activate your account:"
+      user: "Hi %{user}"
+      title: "Sample App"

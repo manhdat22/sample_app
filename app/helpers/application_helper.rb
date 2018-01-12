@@ -21,6 +21,8 @@ module ApplicationHelper
       message_alert_type = "danger";
     when "can_not_delete_user"
       message_alert_type = "danger";
+    when "info"
+      message_alert_type = "info";
     else
       message_alert_type = "danger"
     end
